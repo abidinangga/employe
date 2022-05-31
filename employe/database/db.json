@@ -1,0 +1,77 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": "",
+      "distributionTypeId": 1
+    },
+    {
+      "id": 2,
+      "employee_name": "Ahmad",
+      "employee_salary": 320800,
+      "employee_age": 31,
+      "profile_image": "",
+      "distributionTypeId": 1
+    },
+    {
+      "id": 3,
+      "employee_name": "Dawinto",
+      "employee_salary": 320800,
+      "employee_age": 31,
+      "profile_image": "",
+      "distributionTypeId": 3
+    },
+    {
+      "id": 4,
+      "employee_name": "Paul",
+      "employee_salary": 320800,
+      "employee_age": 41,
+      "profile_image": "",
+      "distributionTypeId": 3
+    },
+    {
+      "id": 5,
+      "employee_name": "Alex",
+      "employee_salary": 320800,
+      "employee_age": 31,
+      "profile_image": "",
+      "distributionTypeId": 2
+    },
+    {
+      "id": 6,
+      "employee_name": "Lestari",
+      "employee_salary": 320800,
+      "employee_age": 21,
+      "profile_image": "",
+      "distributionTypeId": 2
+    }
+  ],
+  "product": [
+    { "id": 1, "name": "leMineral", "unit": "karton", "price": 30000 },
+    { "id": 2, "name": "teh Gelas", "unit": "karton", "price": 45000 },
+    { "id": 3, "name": "teh Kotak", "unit": "karton", "price": 50000 }
+  ],
+  "distribution": [
+    { "id": 1, "name": "DC tanggerang", "typeId": 1 },
+    { "id": 2, "name": "DC Bekasi", "typeId": 1 },
+    { "id": 1, "name": "DC Depok", "typeId": 2 },
+    { "id": 2, "name": "DC Jakarta", "typeId": 2 },
+    { "id": 1, "name": "DC Bandung", "typeId": 3 },
+    { "id": 2, "name": "DC Banten", "typeId": 3 }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "employee_name": "Paul",
+      "totalOrder": 1,
+      "distributionLoc": "DC Depok",
+      "totalPrice": 50000,
+      "productOrder": "teh Kotak",
+      "expiredDate":"22-06-2022",
+      "note":"harus dikirim dengan packaging kayu"
+    }
+  ]
+}
